@@ -1,6 +1,9 @@
 name: Update security dependencies
 
 on:
+  push:
+    branches:
+      - security/update-dependencies
   workflow_dispatch:
 
 permissions:
